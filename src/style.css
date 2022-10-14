@@ -1,0 +1,88 @@
+/*Globais*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: #4a7533f6;
+}
+p {
+    color: #592121b3;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+ }
+
+
+/*Navbar*/
+nav { 
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px ;
+    width: 100vw;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 25px 0 25px; 
+}
+
+nav a {
+    color: #592121a4;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.img-logo {
+    margin: 0 50px 0 50px;
+    padding-top: 10px;
+}
+
+.landing-page {
+    padding-top: 30px ;
+    
+}
+
+/*Main*/
+.row {
+    /* background-color: rgb(193, 165, 193); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+/*Lei*/
+.card {
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.image {
+    float: right;
+    padding-left: 80px;
+    /* max-width: 64px;
+    max-width: 64px; */
+}
+
+.pink {
+    border-left: 3px solid rgb(166, 248, 168);
+}
+
+.lei-resSol {
+    text-decoration: none;
+    color: rgba(51, 188, 27, 0.723);
+}
+
+/*Img lixeiras*/
+.img-lixeira {
+    text-align: center;
+}
