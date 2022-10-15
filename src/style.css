@@ -50,12 +50,15 @@ nav a {
 }
 
 /*Main*/
-.row {
+.container {
     /* background-color: rgb(193, 165, 193); */
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+
+    max-width: 888px;
+    margin: auto;
 }
 
 /*Lei*/
@@ -69,8 +72,6 @@ nav a {
 .image {
     float: right;
     padding-left: 80px;
-    /* max-width: 64px;
-    max-width: 64px; */
 }
 
 .pink {
@@ -83,6 +84,15 @@ nav a {
 }
 
 /*Img lixeiras*/
+
+.titulo-lixeiras {
+    text-align: center;
+}
+
 .img-lixeira {
     text-align: center;
+    width: 100%;
+
+    float: right;
+    /* padding-left: 80px; */
 }
